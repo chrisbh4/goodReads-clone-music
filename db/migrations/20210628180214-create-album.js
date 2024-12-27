@@ -33,6 +33,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.TEXT
       },
+      discoId: {
+        allowNull: true,
+        type: Sequelize.TEXT
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

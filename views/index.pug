@@ -21,7 +21,7 @@ block content
         div(class='Albums')
             each album in albums
                 div(class="topAlbumList")
-                    a(href=`/albums/${album.id}`)
+                    a(href=`/albums/${album.discoId}`)
                         img(src=`${album.imgSrc}`)
         div(class="spacerDiv")
             if reviews.length > 0
